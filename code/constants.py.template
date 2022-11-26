@@ -1,0 +1,44 @@
+from pathlib import Path
+def get_all_data():
+    return {
+        'x_train': Path(),
+        'y_train': Path(),
+        'x_val': Path(),
+        'y_val': Path(),
+        'x_test_easy' : Path(),
+        'y_test_easy' : Path(),
+        'x_test' : Path(),
+        'y_test' : Path(),
+        'cluster_location' : Path()),
+    }
+
+def get_model_weight():
+    return {
+        'first_ae' : 'first_ae',
+        'second_ae' : 'second_ae',
+    }
+
+
+def get_CICIDS_2017():
+    return {
+        'x_train': Path(),
+        'y_train': Path(),
+        'x_val': Path(),
+        'y_val': Path(),
+        'x_test' : Path(),
+        'y_test' : Path(),
+        'x_merge' : Path(),
+        'y_merge' : Path(),
+        'x_attack' : Path(),
+        'y_attack' : Path(),
+    }
+
+def get_CICIDS_2018():
+    return {
+        'x_train': Path(),
+        'y_train': Path(),
+        'x_val': Path(),
+        'y_val': Path(),
+        'x_test' : Path(),
+        'y_test' : Path(),
+    }
